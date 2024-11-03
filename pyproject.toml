@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sql-diagram"
+version = "0.1.0"
+description = ""
+authors = ["Yunhong Min <yunhongmin00@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlglot = "^25.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
